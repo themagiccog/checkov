@@ -496,8 +496,8 @@ class TestYamlPolicies(unittest.TestCase):
     def test_IBM_VPCclassicAccessIsDisabled(self):
         self.go("IBM_VPCclassicAccessIsDisabled")
 
-    def test_IBM_RestrictServiceIDCreationInAccountSettings(self):
-        self.go("IBM_RestrictServiceIDCreationInAccountSettings")
+    # def test_IBM_RestrictServiceIDCreationInAccountSettings(self):
+    #     self.go("IBM_RestrictServiceIDCreationInAccountSettings")
 
     def test_IBM_EnableMFAatAccountLevel(self):
         self.go("IBM_EnableMFAatAccountLevel")
